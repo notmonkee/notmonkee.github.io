@@ -1,3 +1,18 @@
 html, body {
   background: #1b1b1b;
 }
+
+body {
+  display: grid;
+  height: 100vh;
+  place-content: center;
+  background: ;
+}
+p {
+  font-size: 80px;
+  color: #808080;
+  filter: url("#blurMe");
+}
+svg {
+  display: none;
+}
