@@ -3,15 +3,15 @@
 
   NUM_PARTICLES = 250;
 
-  TAIL_LENGTH = 12;
+  TAIL_LENGTH = 1;
 
   MAX_FORCE = 8;
 
-  FRICTION = 0.75;
+  FRICTION = 0.89;
 
-  GRAVITY = 9.81;
+  GRAVITY = 1;
 
-  COLORS = ['#FF4746', '#E8DA5E', '#92B55F', '#487D76'];
+  COLORS = ['#c0c0c0'];
 
   Particle = class Particle {
     constructor(x1 = 0.0, y1 = 0.0, mass = 1.0) {
