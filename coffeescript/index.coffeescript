@@ -1,15 +1,12 @@
 
 NUM_PARTICLES = 250
-TAIL_LENGTH = 12
+TAIL_LENGTH = 1
 MAX_FORCE = 8
-FRICTION = 0.75
-GRAVITY = 9.81
+FRICTION = 0.89
+GRAVITY = 1
   
 COLORS = [
-  '#FF4746'
-  '#E8DA5E'
-  '#92B55F'
-  '#487D76'
+  '#c0c0c0'
   ]
   
 class Particle
