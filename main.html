@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>monkee</title>
+  
+      <link rel="stylesheet" href="css/style.css">
+	  
+	  <style type="text/css">
+
+	  html,
+body {
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+html .slides,
+body .slides,
+html > .dg,
+body > .dg {
+  display: none;
+}
+@media (min-width: 1000px) {
+  body {
+    background-repeat: no-repeat;
+  }
+  body > .dg {
+    display: block;
+  }
+}
+
+	  </style>
+
+  
+</head>
+
+<body>
+
+  <html>
+  <head>
+  </head>
+  <body id="particle-slider">
+      <div class="slides">
+        <div id="first-slide" class="slide" data-src="data:image/png;base64,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">
+      	</div>
+    	</div>
+  		<canvas class="draw"></canvas>
+  </body>
+</html>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.5/dat.gui.min.js'></script>
+
+    <script  src="js/index.js"></script>
+
+	<script type="text/javascript">
+	
+	var init = function(){
+  var isMobile = navigator.userAgent &&
+    navigator.userAgent.toLowerCase().indexOf('mobile') >= 0;
+  var isSmall = window.innerWidth < 1000;
+  
+  var ps = new ParticleSlider({
+    ptlGap: isMobile || isSmall ? 3 : 0,
+    ptlSize: isMobile || isSmall ? 3 : 1,
+    width: 1e9,
+    height: 1e9
+  });
+
+  (window.addEventListener
+   ? window.addEventListener('click', function(){ps.init(true)}, false)
+   : window.onclick = function(){ps.init(true)});
+}
+
+var initParticleSlider = function(){
+  var psScript = document.createElement('script');
+  (psScript.addEventListener
+    ? psScript.addEventListener('load', init, false)
+    : psScript.onload = init);
+  psScript.src = 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/23500/ps-0.9.js';
+	psScript.setAttribute('type', 'text/javascript');
+  document.body.appendChild(psScript);
+}
+    
+(window.addEventListener
+  ? window.addEventListener('load', initParticleSlider, false)
+  : window.onload = initParticleSlider);
+	
+	</script>
+
+</body>
+
+</html>

@@ -1,0 +1,6 @@
+include: [/main]
+include: [/index]
+include: [/main.html]
+include: [/index.html]
+include: [/main.htm]
+include: [/index.htm]
